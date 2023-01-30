@@ -1,0 +1,106 @@
+/* Write your CSS code here */
+.cryptocurrenciesList-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 80%;
+}
+
+.heading {
+  color: #00e7ff;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.image {
+  width: 70%;
+}
+
+.list-table-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  border: 3px solid #00e7ff;
+  border-radius: 5px;
+}
+
+.list-table-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #092e33;
+  font-family: Roboto;
+  padding: 5px;
+}
+
+.coinType-heading {
+  color: #ffffff;
+  font-family: Roboto;
+  width: 55%;
+  text-align: left;
+}
+
+.usdValue-heading {
+  color: #ffffff;
+  font-family: Roboto;
+  width: 20%;
+  text-align: center;
+}
+
+.euroValue-heading {
+  color: #ffffff;
+  font-family: Roboto;
+  width: 20%;
+  text-align: center;
+}
+
+.currencies-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-left: 0px;
+  list-style: none;
+}
+
+@media (max-width: 767px) {
+  .image {
+    width: 80%;
+  }
+}
+
+@media (max-width: 575px) {
+  .image {
+    width: 95%;
+  }
+  .heading {
+    font-size: 26px;
+  }
+  .coinType-heading {
+    color: #ffffff;
+    font-family: Roboto;
+    width: 50%;
+    font-size: 14.5px;
+  }
+  .usdValue-heading {
+    color: #ffffff;
+    font-family: Roboto;
+    width: 25%;
+    text-align: center;
+    font-size: 14.5px;
+  }
+  .euroValue-heading {
+    color: #ffffff;
+    font-family: Roboto;
+    width: 20%;
+    text-align: center;
+    font-size: 14.5px;
+  }
+}
